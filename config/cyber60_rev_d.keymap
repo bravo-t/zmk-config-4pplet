@@ -8,18 +8,6 @@
 / {
     combos {
         compatible = "zmk,combos";
-
-        tilde {
-            bindings = <&kp TILDE>;
-            key-positions = <43 0>;
-            layers = <0 1>;
-        };
-
-        backtick {
-            bindings = <&kp GRAVE>;
-            key-positions = <0 57>;
-            layers = <0 1>;
-        };
     };
 
     keymap {
